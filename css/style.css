@@ -4,16 +4,28 @@
   box-sizing:border-box }
 
 body {
-  max-width: 90%;
+  max-width: 1350px;
   margin: 0 auto!important;
-  background-color: rgb(226, 217, 217)!important;
+  background-color: rgb(253, 249, 249)!important;
 }
+
+
+html, body {
+    overflow-x: hidden;
+}
+.container-fluid {
+    position: relative;
+    background-color: white
+}
+
 
 .header {
     background: #f31f1ff8;
+    
 }
 .logo  img {
     width: 60%;
+    align-items: center
 }
 .header {
     text-align: center;
@@ -24,6 +36,7 @@ body {
     align-items: flex-end;
     justify-content: center;
 }
+
 
 .buttons {
     display: flex;
@@ -46,10 +59,478 @@ body {
 .nav-bar {
     background-color: white;
     display: flex;
-    height: 46px;
-    border: 1px solid rgb(224, 224, 224);
+    justify-content: flex-start;
+    height: 50px;
+    border: 1px solid rgb(146, 145, 145);
     width: 100%;
 }
 .nav-bar ul {
+    display: flex;
+	font-size: 21px;
+	line-height: 24px;
+	font-weight: 700;
+	list-style: none;
+	margin: 0px;
+}
+.nav-bar-link {
+    flex-grow: 1;
+    text-align: center;
+    border-left: 1px solid rgb(146, 145, 145);
+    margin: 10px;
+    padding-left: 20px;
+}
+.nav-bar-link:first-child {
+    margin-left: 0;
+    border:none
+}
+.nav-bar-link a {
+    color: black;
+    align-items: center;
+    cursor: pointer;
+}
+.nav-bar-link a:hover {
+    color: red
+}
+
+.search{
+    color:grey;
+    border:none
+
+}
+.hamburger {
+    color:white;
+    float: right;
+    border:none;
+    margin-left: 5px;
+    background-color: red;
+    display: none
+}
+
+.title {
+    color: rgb(168, 164, 164);
+    font-size: 16px;
+    margin-top: 20px
+}
+.block-img img {
+    width: 100%
+}
+.block-img-text{
+    position: absolute;
+    transform: translateY(-100%);
+    background-color: white;
+    padding: 8px;
+    color:red;
+    font-weight: 600
+}
+.block-title {
+    font-size:22px;
+    font-weight: bold
+}
+ p {
+    line-height: 1.1;
+}
+
+.sml-opinion {
+    display: flex;
+    border-bottom: 1px solid rgb(146, 145, 145);
+    margin-top: 10px;
+}
+.sml-opinion:last-child {
+    border:none
+}
+.profile-block img{
+    width: 100%;
+}
+.opinion-title {
+    font-size: 16px;
+}
+.opinion-title a{
+    color: black;
+}
+.opinion-title a:hover{
+    color: red;
+    text-decoration: none
+}
+.text {
+    margin-left: 8px;
+    font-weight: bold
+}
+.author {
+    font-size: 12px;
+    color:grey;
+}
+.culturetravel {
+    background-color: rgb(253, 249, 249)
+}
+.culturetravel h3 {
+    padding: 6px
+}
+.culturetravel section {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap:8px
+}
+
+.culturetravel .block-title {
+    font-weight: 400;
+    font-size: 16px;
+    padding: 6px;
+    line-height: 1;
+}
+.culturetravel p {
+    color: grey;
+    padding: 0 6px;
+    font-size: 14px
+}
+.culturetravel a {
+    margin: 0 6px;
+    padding: 3px;
+    font-size: 14px;
+    color:black;
+    background-color: #5cb1a4f8
+}
+.culturetravel a:hover {
+    background-color: black;
+    color:grey;
+    text-decoration: none
+}
+
+
+.small-story {
+    display: flex;
+    border-top: 1px solid rgb(146, 145, 145);
+    padding: 10px 0;
+}
+
+.more-stories .image img {
+    height: 100px;
+    width: 150px
+}
+.more-stories .text {
+    margin-left: 10px;
+}
+.text h3 {
+    font-size: 16px;
+    font-weight: bold
+}
+.text h3>a, .red-line-hover>a{
+    color:black
+}
+.more-stories .text h3>a:hover, .red-line-hover>a:hover{
+    text-decoration-color: red;
+    color: black
+}
+.text p{
+    font-weight: 300
+}
+
+
+.small-news{
+    display: flex;
+    border-bottom: 1px solid rgb(146, 145, 145);
+    margin: 10px 0;
+    padding-bottom: 8px
+}
+.small-news:last-child {
+    border: none
+}
+.small-news .image img {
+    width:100%;
+}
+.small-news .text h3 {
+    font-size: 14px
+}
+.small-news .text h3>a:hover{
+    text-decoration: none;
+    color: red
+}
+
+.wrapper{
+    margin-top: 40px;
+    margin-left:15px;
+    margin-right: 15px;
+    background-color:rgb(253, 249, 249) ;
+    padding: 20px
+}
+.wrapper button {
+    margin-top:5px;
+    border: none;
+    padding: 9px;
+    color: white;
+    background-color: rgba(41, 37, 37, 0.671);
+    font-weight: bold
+}
+.wrapper button:hover {
+    background-color: rgba(41, 37, 37, 0.4);
+}
+.text-logo{
+    display: flex
+}
+.newsletter-logo img{
+    width: 30px;
+    height: 30px;
+    align-items: center
+}
+.newsletter-title{
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 14px
+}
+.preferences {
+    word-spacing: .5px; 
+    margin-top:8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.title-border{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d9d9d9;
+	margin: 20px auto;
+}
+.title-border img{
+    height: 30px;
+}
+.part-title {
+    margin-left:10px;
+    font-weight: bold
+}
+
+.image-article img {
+    width: 100%;
+}
+.gray {
+    padding: 8px;
+    text-align: center;
+    background-color:rgb(253, 249, 249);
+}
+.category {
+    margin: 10px 0;
+    color: red;
+}
+.mag-cat, .cat{padding: 5px;}
+.mag-cat{
+    background-color: red;
+    color:white;
+}
+
+.picture img {
+    width: 100%
+}
+
+.text-border {
+    border: 1px solid red;
+}
+.shadow-title {
+    box-shadow: 5px 5px 15px 5px rgb(236, 85, 85), 5px 5px 0px 0px red
+}
+
+.others {
+    border-top: 1px solid #d9d9d9;
+    margin: 15px 0;
+    padding-top: 15px
+}
+
+.other-title {
+    color:red;
+    font-size: 22px
+}
+.small-others {
+    display: flex;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid  #d9d9d9
+}
+.small-others:last-child{
+    border:none
+}
+.small-others .image img {
+    height: 100px;
+    width: 150px;
+    margin-right: 10px
+}
+.small-others .more-text h3 {font-size: 16px} .small-others .more-text h3>a {color: black} .small-others .more-text h3>a:hover {color: red; text-decoration: none}
+
+.subscribe-newsletter {
+    border-bottom: 2px solid rgb(224, 224, 224);
+    padding-bottom: 50px;
+}
+
+
+.subscribe-newsletter .wrapper {
+    display: flex;
+    background: rgb(224, 224, 224);
+    justify-content: space-between;
+}
+
+.sub-image,
+.sub-text {
+    padding: 20px 10px;
+}
+
+.sub-text p {
+width: 50%;
+}
+
+.sub-title {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+.preferences a {
+    color: black;
+    text-decoration: none;
+}
+.news-wrapper {
+    display: flex;
+    height: 100%;
+}
+.news-wrapper .news-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.news-text {
+    height: 100%;
+    width: 45%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.news-title {
+    font-size: 20px;
+}
+
+.news-image {
+    width: 50%;
+    clear: both;
+    background: url(https://g.newsweek.com/themes/newsweek/images/subscribe-img2.gif) center center / cover no-repeat;
+}
+.sub-button {
+    background-color: red;
+    border:none;
+    color:white;
+    padding: 2px
+}
+
+/* Footer */
+
+.logo-social {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(244, 245, 246);
+}
+
+.logo-and-text img {
+    width: 250px;
+    margin-right: 30px;
+}
+
+.social-icons {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icons li {
+    font-size: 25px;
+    padding: 0 10px;
     
+}
+
+.social-icons li a {
+    color: rgb(110, 110, 110);
+
+}
+
+footer {
+    width:100%;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.about,
+.editions {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.editions {
+    padding: 0 10px;
+}
+.about li,
+.editions li {
+    float: left;
+}
+.footer-links{
+    border-top: 1px solid rgb(123, 124, 126);
+    margin-bottom:  45px;
+    padding-top: 10px
+}
+.footer-links a {
+    border-right: 1px solid gray;
+    padding: 0 15px;
+
+}
+
+.about li a,
+.editions li a {
+    color: rgb(102, 102, 102);
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.about li a:hover,
+.editions li a:hover {
+    color: black;
+}
+
+
+/* Media */
+
+@media (max-width: 767px) {
+    .culturetravel section {
+        grid-template-columns: 1fr;
+    }
+
+    .wrapper{
+        margin-left: 120px;
+        margin-right: 120px
+    }
+    .small-others:first-child {
+        margin-top: 25px
+    }
+    .wrapper, .news-image {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 15px auto;
+        text-align: center
+    }
+    .news-image {
+        display: inherit;
+        width: 100%;
+        background: url(https://g.newsweek.com/themes/newsweek/images/subscribe-img2.gif) center center / cover no-repeat;
+        margin-right: 5px;
+    }
+    .sub-text p {
+        margin: 15px auto;   
+    }
+    .hamburger{
+        display: inherit;
+    }
+    .date {
+        display: none;
+    }
+    .logo {
+        float: left;
+    }
 }

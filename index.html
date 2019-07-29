@@ -14,8 +14,9 @@
 
     </head>
     <body>
+            <div class="container-fluid">
        <header>
-           <nav class="container-fluid">
+           <nav class="nav">
                <div class="header row">
                     <p class="col-3 date">Thu, Jul 25, 2019</p>
                     <div class="col-6 logo">
@@ -24,33 +25,36 @@
                     <div class="col-3 buttons">
                         <a class="sign-in">Sign In</a>
                         <a class="subscribe">Subscribe ></a>
+                        <button class="hamburger">
+                                <i class="fas fa-bars"></i>
+                        </button>
                     </div>
-               </div>
-               
+
+                      
                <div class="nav-bar col-12">
-                    <ul>
-                        <li><a href="#">U.S</a></li>
-                        <li><a href="#">World</a></li>
-                        <li><a href="#">Business</a></li>
-                        <li><a href="#">Tech & Science</a></li>
-                        <li><a href="#">Culture</a></li>
-                        <li><a href="#">Sports</a></li>
-                        <li><a href="#">Health</a></li>
-                        <li><a href="#">Opinion</a></li>
-                        <li><a href="#">Vantage</a></li>
-                    </ul>
-                    <div class="search">
-                        <p>Search <span class="fas fa-search"></span></p>
-                    </div>
+                <ul>
+                    <li class="nav-bar-link"><a href="#">U.S</a></li>
+                    <li class="nav-bar-link"><a href="#">World</a></li>
+                    <li class="nav-bar-link"><a href="#">Business</a></li>
+                    <li class="nav-bar-link"><a href="#">Tech & Science</a></li>
+                    <li class="nav-bar-link"><a href="#">Culture</a></li>
+                    <li class="nav-bar-link"><a href="#">Sports</a></li>
+                    <li class="nav-bar-link"><a href="#">Health</a></li>
+                    <li class="nav-bar-link"><a href="#">Opinion</a></li>
+                    <li class="nav-bar-link"><a href="#">Vantage</a></li>
+                    <li class="nav-bar-link search"><p>Search <span class="fas fa-search"></span></p></li>
+                </ul>
                </div>
+               </div>
+             
            </nav>
        </header>
 
        <main>
-           <div class="container-fluid">
-               <div class="row">
-                   <section class="col-lg-3 col-md-5 featured-stories">
-                       <h2 class="title">Featured Strories</h2>
+           
+               <div class="row container-fluid">
+                   <section class="col-lg-4 col-md-5 featured-stories">
+                       <h2 class="title">FEATURED STORIES</h2>
                        <article class="block">
                            <div class="block-img">
                                <img src="https://d.newsweek.com/en/full/1511786/newsweek-momentum-awards-2019.png?w=397&h=265&q=90&f=b5bee11f8b144487ff291880f4d318be" alt="">
@@ -102,7 +106,7 @@
                      </section>
                    </section>
 
-                   <section class="col-lg-5 col-md-6 top-story">
+                   <section class="col-lg-5 col-md-7 top-story">
                        <section>
                            <h2 class="title">TOP STORY</h2>
                            <article class="block">
@@ -118,8 +122,8 @@
                        </section>
 
                        <div class="culturetravel">
+                            <h3 class="title">CULTURE & TRAVEL</h3>
                            <section>
-                               <h3 class="title">CULTURE & TRAVEL</h3>
                                <article class="block">
                                 <div class="block-img">
                                     <img src="https://d.newsweek.com/en/full/1514134/ancient-egypt-jewelry.png?w=397&h=265&f=82f483bef40556f0113fec07d2a5315b" alt="">
@@ -158,10 +162,9 @@
                            </section>
                        </div>
 
-                       <div class="more-stories">
-                        <section>
+                       <div class="sticky-top more-stories">  <!-- Stic ky-top class is not working -->
                             <h3 class="title">MORE STORIES</h3>
-                    
+                        <section>
                             <article class="small-story">
                             <div class="image">
                                 <img src="https://d.newsweek.com/en/full/1515235/ap-rocky.jpg?w=397&h=265&f=2a26d8ea39b1584462072e4080c73edd" alt="">
@@ -248,7 +251,7 @@
                    
                    <div class="col-lg-3 col-md-12 opinion">
                        <section>
-                            <h2 class="title"><a href="#">OPINION</a></h2>
+                            <h2 class="title">OPINION</h2>
                             <article class="sml-opinion">
                                 <div class="profile-block">
                                     <img src="https://d.newsweek.com/en/full/1515051/howard-kaye.png?w=129&h=129&f=6360ce27ba00aa8b6fd5bbcfa511e80a" alt="">
@@ -266,10 +269,10 @@
                                     </div>
                                     <div class="text">
                                             <h3 class="opinion-title"><a href="#">
-                                                    Ban Antifa? I've Met Golden Retrievers Who Scared Me More</a></h3>
-                                            <p class="author">BY TAE PHOENIXE</p>
+                                                    My Wife Was Killed for Being a Jew. Now I'm Fighting to Stop the Next Poway</a></h3>
+                                            <p class="author">BY HOWARD KAYE</p>
                                     </div>
-                            </article>
+                                </article>
 
                             <article class="sml-opinion">
                                     <div class="profile-block">
@@ -299,10 +302,10 @@
                                     </div>
                                     <div class="text">
                                             <h3 class="opinion-title"><a href="#">
-                                                    A Three-Step Guide to De-Escalating the Conflict With Iran</a></h3>
+                                                    My Wife Was Killed for Being a Jew. Now I'm Fighting to Stop the Next Poway</a></h3>
                                             <p class="author">BY HOWARD KAYE</p>
                                     </div>
-                            </article>
+                                </article>
 
                             <article class="sml-opinion">
                                     <div class="profile-block">
@@ -318,8 +321,8 @@
                        </section>
 
                        <section class="latest-news">
+                            <h3 class="title">LATEST NEWS</h3>
                             <section>
-                                    <h3 class="title"><a href="#">LATEST NEWS</a></h3>
                                     <article class="small-news">
                                             <div class="image">
                                                 <img src="https://d.newsweek.com/en/full/1515241/ted-lieu-mueller-ham-sandwich.jpg?w=397&h=265&f=eb28270864cfd9a30c865661a8081c88" alt="">
@@ -415,142 +418,780 @@
                                                 </div>
                                                         
                                         <button>SIGN UP <i class="fas fa-angle-right"></i></button>
-                                            <p class="preferences"><a href="#"> Update your preferences >> </a> </p>
+                                            <p class="preferences">Update your preferences >> </p>
                                 </div>
                         </section>
 
                    </div>
-                   
-
 
                </div>
-               <section class="in-magazine">
-       
-                    <h2 class="magazine-title">IN THE MAGAZINE</h2>
-            
-                    <div class="row">
+               
+               <section class="bottom">
+                    <div class="magazine">
+                        <div class="row container-fluid">
+                            <div class="col-md-3 align-self-center">
+                                <div class="wrap">
+                                    <img src="https://d.newsweek.com/en/full/1515144/august-2-2019-cover.jpg?w=290&h=387&q=90&f=9d76ce6d0f2befc45517f0ba0f1260b8"  alt="">
+                                    <div class="block-img-text">
+                                            AUGUST 02 ISSUE
+                                    </div>
+                                </div>
+                                <p class="gray">See All Features</p>
+                            </div>
+        
+                            <div class="col-md-9">
+                              
+                                    <div class="row justify-content-center title-border">
+                                            <img src="images/favicon.png" alt="">
+                                            <span class="part-title">IN THE MAGAZINE</span>
+                                    </div>
+                            
+        
+        
+                                <div class="row">
+                                    <article class="col-md-4 magazine-article">
+                                        <div class="image-article">
+                                            <img src="https://d.newsweek.com/en/full/1513527/fe-hacking-01-banner.jpg?w=466&h=311&q=90&f=bb8ad2b1cbb975b8142c1886ab45ce50" alt="">
+                                        </div>
+                                        <div class="category">
+                                            <span class="mag-cat">FEATURES</span>
+                                            <span class="cat">WORLD</span>
+                                        </div>
+                                        <h5 class="article-title">What Happens to Our Democracy If Russia Hacks the 2020 Vote?</h5>
+                                    </article>
+        
+                                    <article class="col-md-4 magazine-article">
+                                        <div class="image-article">
+                                            <img src="https://d.newsweek.com/en/full/1513561/fe-hacking-sidebar-clarke.jpg?w=466&h=311&q=90&f=55896c1535394b3e315073b178ff1f20" alt="">
+                                        </div>
+                                        <div class="category">
+                                            <span class="mag-cat">FEATURES</span>
+                                            <span class="cat">POLITICS</span>
+                                        </div>
+                                        <h5 class="article-title">2020 Elections Will Be a Cyber-war That Leaves the U.S. At a Disadvantage</h5>
+                                    </article>
+        
+                                    <article class="col-md-4 magazine-article">
+                                        <div class="image-article">
+                                            <img src="https://d.newsweek.com/en/full/1505599/us-iran-history-shoot-down-plane.jpg?w=466&h=311&q=90&f=f7eea65b164e576dce360428a033ec83" alt="">
+                                        </div>
+                                        <div class="category">
+                                            <span class="mag-cat">FEATURES</span>
+                                            <span class="cat">WORLD</span>
+                                        </div>
+                                        <h5 class="article-title">The U.S. Killed 300 Iranian Citizens. Iranians Remember—But Americans Don't</h5>
+                                    </article>
+        
+                                </div>
+
+                                
+                            </div>
+
+                            <div class="magazine">
+                                    <div class="row container-fluid bottom">
+                                        <article class="col-md-3 magazine-article">
+                                            <div class="image-article" >
+                                                <img src="https://d.newsweek.com/en/full/1513924/per-the-code-03-511574490.jpg?w=466&h=311&q=90&f=31b90e901ad3dbc556c772e49b2e1d8f" alt="">
+                                            </div>
+                                            <div class="category">
+                                                <span class="mag-cat">Cover</span>
+                                                <span class="cat">U.S.</span>
+                                            </div>
+                                            <h5 class="article-title">How Facebook Changed Social Connections and the Political Landscape Forever</h5>
+                                        </article>
+                                        <article class="col-md-3 magazine-article">
+                                            <div class="image-article">
+                                                <img src="https://d.newsweek.com/en/full/1513906/cul-books-01-748319631.jpg?w=466&h=311&q=90&f=4d4f32656f2e4a794e1a4927e8f60fe4" alt="">
+                                            </div>
+                                            <div class="category">
+                                                <span class="mag-cat">Downloads</span>
+                                                <span class="cat">U.S.</span>
+                                            </div>
+                                            <h5 class="article-title">Doug Jones: The Republican Party Is Losing Its Soul</h5>
+                                        </article>
+                                        <article class="col-md-3 magazine-article">
+                                            <div class="image-article">
+                                                <img src="https://d.newsweek.com/en/full/1513905/partingshot-stephaniedanler.jpg?w=466&h=311&q=90&f=60ac0710ba088a9e221a33622307c6ef" alt="">
+                                            </div>
+                                            <div class="category">
+                                                <span class="mag-cat">FEATURES</span>
+                                                <span class="cat">TECH & SCIENCE</span>
+                                            </div>
+                                            <h5 class="article-title">Introducing Blockchain Impact Winner SimplyVital Health</h5>
+                                        </article>
+                                        <article class="col-md-3 magazine-article">
+                                            <div class="image-article">
+                                                <img src="https://d.newsweek.com/en/full/1513561/fe-hacking-sidebar-clarke.jpg?w=466&h=311&q=90&f=55896c1535394b3e315073b178ff1f20">
+                                                <div class="category"><span class="mag-cat" >Big Shots</span></div>
+                    
+                                            <h5 class="article-title">AFTER THE DELUGE</h5>
+                                        </article>
+                                    </div>
+                        </div>
+                    </div>
+        
+
+                <section class="editor-pick">
+
+                    <div class="row justify-content-center title-border ">
+                            <img src="images/favicon.png" alt="">
+                            <span class="part-title">EDITOR'S PICK</span>
+                    </div>
+
+                    <div class="row container-fluid">
+                        <section class="editor col-md-3">
+                            <article>
+                                    <div class="picture">
+                                        <img src="https://d.newsweek.com/en/full/1515393/us-marine-corps.jpg?w=397&h=265&f=1f2c8eae86d4a2feaea96d0f67666ccf" alt="">
+                                        <div class="block-img-text">NEWS</div>
+                                    </div>
+                                    <h2 class="block-title red-line-hover"><a href="#">Three More Servicemembers Arrested in Connection to Human Smuggling Ring</a></h2>
+                                    <p>Naval Criminal Investigative Services confirmed the arrests of two Marines and one sailor — all based out of Camp Pendelton in California — in an emailed statement to Newsweek.</p>
+                        
+                            </article>
+                        </section>
+
+                        <section class="editor col-md-3">
+                                <article>
+                                        <div class="picture">
+                                            <img src="https://d.newsweek.com/en/full/1508016/border-wall.jpg?w=397&h=265&f=2125f773482845dc196fda38a9e8a5c9" alt="">
+                                            <div class="block-img-text">U.S</div>
+                                        </div>
+                                        <h2 class="block-title red-line-hover"><a href="#">Supreme Court Allows Trump to Reallocate Military Funds for Border Wall</a></h2>
+                                        <p>The court allows the Trump administration to move forward with reallocating approximately $2.5 billion, originally appropriated for the Defense Department, to use for construction of the border wall.</p>
+                            
+                                </article>
+                        </section>
+
+                        <section class="editor col-md-3">
+                                <article>
+                                        <div class="picture">
+                                            <img src="https://d.newsweek.com/en/full/1514910/donald-trump-xi-jinping-hong-kong-china.jpg?w=397&h=265&f=ad607c8a0ef127e6c26ea0c43982f6ba" alt="">
+                                            <div class="block-img-text">NEWS</div>
+                                        </div>
+                                        <h2 class="block-title red-line-hover"><a href="#">Hong Kong Protesters Look to U.S. and U.K. for Support Amid Protests</a></h2>
+                                        <p>President Donald Trump has been reticent to criticize Beijing despite strong condemnations from the State Department and lawmakers from both parties.</p>
+                            
+                                </article>
+                        </section>
+
+                        <section class="editor col-md-3">
+                                <article>
+                                        <div class="picture">
+                                            <img src="https://d.newsweek.com/en/full/1515200/amazon-rainforest-deforestation.jpg?w=397&h=265&f=89af13b8246ea3e0079c3cf6c5e2c110" alt="">
+                                            <div class="block-img-text">TECH & SCIENCE</div>
+                                        </div>
+                                        <h2 class="block-title red-line-hover"><a href="#">Illegal Deforestation Pushes Amazon Rainforest to 'Tipping Point'</a></h2>
+                                        <p>Deforestation has increased to the point where more than three football fields of tree cover are being lost every minute.</p>
+                            
+                                </article>
+                        </section>
+
+                        <section class="editor col-md-3">
+                                <article>
+                                        <div class="picture">
+                                            <img src="https://d.newsweek.com/en/full/1515217/donald-trump-william-barr-npo-memorial-service.jpg?w=397&h=265&f=270dd1ded4079bc603cbb8b6d494a461" alt="">
+                                            <div class="block-img-text">U.S</div>
+                                        </div>
+                                        <h2 class="block-title red-line-hover"><a href="#">Trump Says Barr Has 'Total Release' to Investigate Russia Probe</a></h2>
+                                        <p>Deforestation has increased to the point where more than three football fields of tree cover are being lost every minute.</p>
+                            
+                                </article>
+                        </section>
+
+                        <section class="editor col-md-3">
+                                <article>
+                                        <div class="picture">
+                                            <img src="https://d.newsweek.com/en/full/1514941/donald-trump-white-house-lawn-mueller-testimony.jpg?w=397&h=265&f=16372e5bed63af650af79c1e1b2911fc" alt="">
+                                            <div class="block-img-text">U.S</div>
+                                        </div>
+                                        <h2 class="block-title red-line-hover"><a href="#">Ongoing Investigations Threaten Trump in Wake of Mueller Testimony</a></h2>
+                                        <p>About 30 investigations relating to President Donald Trump's businesses, his 2016 campaign, the inauguration committee and his administration remain in process, and some are on track to be resolved before the 2020 election.</p>
+                            
+                                </article>
+                        </section>
+
+                        
+                        <section class="editor col-md-3">
+                                <article>
+                                        <div class="picture">
+                                            <img src="https://d.newsweek.com/en/full/1515217/donald-trump-william-barr-npo-memorial-service.jpg?w=397&h=265&f=270dd1ded4079bc603cbb8b6d494a461" alt="">
+                                            <div class="block-img-text">U.S</div>
+                                        </div>
+                                        <h2 class="block-title red-line-hover"><a href="#">Gender Pay Gap in Sports Is More of an Issue After Women's World Cup Win, Americans Say</a>
+                                            </h2>
+                                        <p>President Donald Trump is supporting Attorney General William Barr's investigation into the origins of the Mueller probe. "He's got everything," Trump said. "Anything he needs, he's got."</p>
+                            
+                                </article>
+                        </section>
+
+                        <section class="editor col-md-3">
+                                <article>
+                                        <div class="picture">
+                                            <img src="https://d.newsweek.com/en/full/1515288/uswnt.jpg?w=397&h=265&f=f37264ec385a406d93268e365187d2f6" alt="">
+                                            <div class="block-img-text">NEWS</div>
+                                        </div>
+                                        <h2 class="block-title red-line-hover"><a href="#">Ongoing Investigations Threaten Trump in Wake of Mueller Testimony</a></h2>
+                                        <p>Thirty-five percent of U.S. adults believe the gender pay gap in sports is more of an issue after the women's team won their fourth World Cup title earlier this month."</p>
+                            
+                                </article>
+                        </section>
+                    </div>
+                </section>
                 
-                    <section class="col-md-3 cover-start">
-                        <article>
-                          <div class="picture">
-                            <img src="https://d.newsweek.com/en/full/1512696/july-26-2019-cover.jpg?w=290&h=387&q=90&f=9544b69a2b1f0d5f0d8daaa50bcf6d3d" alt="June 21 Cover">
-                            <h2 class="type issue">JULY 26 ISSSUE</h2>
-                          </div>
-                          <div class="mag-text">
-                                    <p class="see-features">SEE ALL FEATURES  <i class="fas fa-angle-right"></i></p>
-                          </div>  
-                        </article>
-                </section>
+                <section class="slideshows">
+                    <div class="row justify-content-center title-border">
+                            <img src="images/favicon.png" class="shadow-title" alt="">
+                            <span class="part-title ">FEATURED SLIDESHOW</span>
+                    </div>
 
-                <section class="col-md-3 in-mag">
-                        <article>
-                            <div class="picture">
-                              <img src="https://d.newsweek.com/en/full/1512184/fe-cancer-01-1012948362-banner.jpg?w=466&h=311&q=90&f=195700d26c22b7403cf40561221de05f" alt="">
-                            </div>
-                            <div class="magazine-text">
-                                <p class="mag-details">
-                                    <span class="detail">COVER</span>
-                                    <span class="category">HEALTH</span>
-                                </p>
-                                <h2 class="mag-title"><a href="#">Precision Medicine Is Crushing Once-Untreatable Cancers </a></h2>
-                            </div>  
-                        </article>
-                </section>
+                    <div class="row container-fluid">
+                        <section class="slide col-md-4">
+                                <article>
+                                        <div class="picture">
+                                            <img src="https://d.newsweek.com/en/full/1514149/pierre-cardin.jpg?w=397&h=265&l=34&t=27&f=74dc444a96f906b4d71ec24a0df32e52" alt="">
+                                            <div class="block-img-text text-border">13</div>
+                                        </div>
+                                        <h2 class="block-title red-line-hover"><a href="#">Avant Garde King Pierre Cardin Takes Brooklyn by Storm</a></h2>
+                                        
+                            
+                                </article>
+                        </section>
 
-                <section class="col-md-3 in-mag">
-                        <article>
-                            <div class="picture">
-                              <img src="https://d.newsweek.com/en/full/1512240/fe-cancer-sidebar-michael-caligiuri.jpg?w=466&h=311&q=90&f=7d948a988652e834d977692d2272607f" alt="">
-                            </div>
-                            <div class="magazine-text">
-                                <p class="mag-details">
-                                    <span class="detail">FEATURES</span>
-                                    <span class="category">HEALTH</span>
-                                </p>
-                                <h2 class="mag-title"><a href="#">Precision Medicine Costs a Fortune but Could Save Money Later On </a></h2>
-                            </div>  
-                        </article>
-                </section>
+                        <section class="slide col-md-4">
+                                <article>
+                                        <div class="picture">
+                                            <img src="https://d.newsweek.com/en/full/1514149/pierre-cardin.jpg?w=397&h=265&l=34&t=27&f=74dc444a96f906b4d71ec24a0df32e52" alt="">
+                                            <div class="block-img-text text-border">13</div>
+                                        </div>
+                                        <h2 class="block-title red-line-hover"><a href="#">Avant Garde King Pierre Cardin Takes Brooklyn by Storm</a></h2>
+                                        
+                            
+                                </article>
+                        </section>
 
-                <section class="col-md-3 in-mag">
-                        <article>
-                            <div class="picture">
-                              <img src="https://d.newsweek.com/en/full/1512245/fe-cancer-sidebar-stanley-robboy.jpg?w=466&h=311&q=90&f=f84e02c450df17d23861e77aa04501c8" alt="">
-                            </div>
-                            <div class="magazine-text">
-                                <p class="mag-details">
-                                    <span class="detail">FEATURES</span>
-                                    <span class="category">HEALTH</span>
-                                </p>
-                                <h2 class="mag-title"><a href="#">Doctors Are Turning to Artificial Intelligence to Diagnose Cancer Patients</a></h2>
-                            </div>  
-                        </article>
-                </section>
+                        <section class="slide col-md-4">
+                                <article>
+                                        <div class="picture">
+                                            <img src="https://d.newsweek.com/en/full/1514149/pierre-cardin.jpg?w=397&h=265&l=34&t=27&f=74dc444a96f906b4d71ec24a0df32e52" alt="">
+                                            <div class="block-img-text text-border">13</div>
+                                        </div>
+                                        <h2 class="block-title red-line-hover"><a href="#">Avant Garde King Pierre Cardin Takes Brooklyn by Storm</a></h2>
+                                        
+                            
+                                </article>
+                        </section>
 
-                <section class="col-md-3 in-mag">
-                        <article>
-                            <div class="picture">
-                              <img src="https://d.newsweek.com/en/full/1508647/ron-sullivan-newsweek-interview-harvard-harvey-weinstein.jpg?w=466&h=311&l=50&t=67&q=90&f=0631fad07c14e5612232f10b7b3e280a" alt="">
-                            </div>
-                            <div class="magazine-text">
-                                <p class="mag-details">
-                                    <span class="detail">DOWNLOADS</span>
-                                    <span class="category">CULTURE</span>
-                                </p>
-                                <h2 class="mag-title"><a href="#">How Harvard Caved to Students and Fired Its First Black Faculty Dean</a></h2>
-                            </div>  
-                        </article>
-                </section>
+                        <section class="slide col-md-4">
+                                <article>
+                                        <div class="picture">
+                                            <img src="https://d.newsweek.com/en/full/1514149/pierre-cardin.jpg?w=397&h=265&l=34&t=27&f=74dc444a96f906b4d71ec24a0df32e52" alt="">
+                                            <div class="block-img-text text-border">13</div>
+                                        </div>
+                                        <h2 class="block-title red-line-hover"><a href="#">Avant Garde King Pierre Cardin Takes Brooklyn by Storm</a></h2>
+                                        
+                            
+                                </article>
+                        </section>
 
-                <section class="col-md-3 in-mag">
-                        <article>
-                            <div class="picture">
-                              <img src="https://d.newsweek.com/en/full/1512326/cul-woodstock-01.jpg?w=466&h=311&q=90&f=84dddf2f0380e3e80d1050b470e40272" alt="">
-                            </div>
-                            <div class="magazine-text">
-                                <p class="mag-details">
-                                    <span class="detail">DOWNTIME</span>
-                                    <span class="category">CULTURE</span>
-                                </p>
-                                <h2 class="mag-title"><a href="#">Highlights (and Lowlights) of Woodstock at 50</a></h2>
-                            </div>  
-                        </article>
-                </section>
+                        <section class="slide col-md-4">
+                                <article>
+                                        <div class="picture">
+                                            <img src="https://d.newsweek.com/en/full/1514149/pierre-cardin.jpg?w=397&h=265&l=34&t=27&f=74dc444a96f906b4d71ec24a0df32e52" alt="">
+                                            <div class="block-img-text text-border">13</div>
+                                        </div>
+                                        <h2 class="block-title red-line-hover"><a href="#">Avant Garde King Pierre Cardin Takes Brooklyn by Storm</a></h2>
+                                        
+                            
+                                </article>
+                        </section>
 
-                <section class="col-md-3 in-mag">
-                        <article>
-                            <div class="picture">
-                              <img src="https://d.newsweek.com/en/full/1503544/gretchen-carlson.png?w=466&h=311&q=90&f=353cacca2914d98cb49ef07e5b7e4b4f " alt="">
-                            </div>
-                            <div class="magazine-text">
-                                <p class="mag-details">
-                                    <span class="detail">DOWNTIME</span>
-                                    <span class="category">CULTURE</span>
-                                </p>
-                                <h2 class="mag-title"><a href="#">Gretchen Carlson on Making Work 'Safer' in #MeToo Era: This is Not a Fad</a></h2>
-                            </div>  
-                        </article>
-                </section>
-
-                <section class="col-md-3 in-mag">
-                        <article>
-                            <div class="picture">
-                              <img src="https://d.newsweek.com/en/full/1512326/cul-woodstock-01.jpg?w=466&h=311&q=90&f=84dddf2f0380e3e80d1050b470e40272" alt="">
-                            </div>
-                            <div class="magazine-text">
-                                <p class="mag-details">
-                                    <span class="detail">BIG SHOTS</span>
-                                </p>
-                                <h2 class="mag-title"><a href="#">NO PEACE</a></h2>
-                            </div>  
-                        </article>
-                </section>
-                
-                </div>
-                </section>
+                        <section class="slide col-md-4">
+                                <article>
+                                        <div class="picture">
+                                            <img src="https://d.newsweek.com/en/full/1514149/pierre-cardin.jpg?w=397&h=265&l=34&t=27&f=74dc444a96f906b4d71ec24a0df32e52" alt="">
+                                            <div class="block-img-text text-border">13</div>
+                                        </div>
+                                        <h2 class="block-title red-line-hover"><a href="#">Avant Garde King Pierre Cardin Takes Brooklyn by Storm</a></h2>
+                                        
+                            
+                                </article>
+                        </section>
            </div>
+           </section>
+
+           <div class="others">
+                <div class="other-section u-s">
+                <h3 class="other-title container-fluid container-fluid">U.S.</h3>
+                <div class="row container-fluid">
+                    <section class="story col-md-4">
+                        <article>
+                            <div class="picture">
+                                <img src="https://d.newsweek.com/en/full/1515599/nypd.jpg?w=397&h=265&f=feef9a3b1f607a7f61c4fe0dc098f2b2" alt="">
+                            </div>
+                            <h2 class="block-title red-line-hover"><a href="#" >Bra Saves Woman's Life in Deadly Brooklyn Shooting</a></h2>
+                
+                        </article>
+                    </section>
+        
+                        <section class="story col-md-4">
+                            <article>
+                                <div class="picture">
+                                    <img src="https://d.newsweek.com/en/full/1515604/donald-trump-al-sharpton.jpg?w=397&h=265&f=2eb9af304994cceaa0c7aad76bf0b24d" alt="">
+                                </div>
+                                <h2 class="block-title red-line-hover"><a href="#" >Donald Trump Attacks Al Sharpton, Says He 'Hates Whites'</a></h2>
+                    
+                            </article>
+                        </section>
+        
+                            <div class="col-md-4">
+                            <section class="small-others">
+                               
+                                    <div class="image">
+                                        <img src="https://d.newsweek.com/en/full/1515585/gilroy-shooting-california.jpg?w=135&h=90&f=4fcc6de902ba8d0ed3edf099fe7410a5" alt="">
+                                    </div>
+                                    <div class="more-text">
+                                        <h3 class="small-other-title"><a href="#">Democrats React With Horror to Gilroy Shooting</a></h3>
+                                    </div>
+                                    
+                                </section>
+        
+                                <section class="small-others">
+                                    
+                                        <div class="image">
+                                            <img src="https://d.newsweek.com/en/full/1515591/donald-trump.jpg?w=135&h=90&f=1c7284ec574753bcd82126afeef82287" alt="">
+                                        </div>
+                                        <div class="more-text">
+                                            <h3 class="small-other-title"><a href="#">
+                                                    Donald Trump Accidentally Tweets Praise At Tom Homan Parody Account</a></h3>
+                                        </div>
+                                    
+                                    </section>
+        
+                                    <section class="small-others">
+                        
+                                            <div class="image">
+                                                <img src="https://d.newsweek.com/en/full/1515584/san-antonio-police-officer.jpg?w=135&h=90&f=c8b708e8cf36972ab561b7d124e2f5f6" alt="">
+                                            </div>
+                                            <div class="more-text">
+                                                <h3 class="small-other-title"><a href="#">Texas Restaurant Asks Police Officer to Leave Because He Was Carrying a Gun</a></h3>
+                                            </div>
+                                        
+                                        </section>
+                                
+                        </div>
+                        </div>
+                        </div>
+            </div>
+
+            <div class="others">
+                    <div class="other-section world">
+                    <h3 class="other-title container-fluid">World</h3>
+                    <div class="row container-fluid">
+                        <section class="story col-md-4">
+                            <article>
+                                <div class="picture">
+                                    <img src="https://d.newsweek.com/en/full/1515613/meghan-markle.jpg?w=397&h=265&f=fc703b946dc1a4be40c8c68c2deb4705" alt="">
+                                </div>
+                                <h2 class="block-title red-line-hover"><a href="#" >Bra Saves Woman's Life in Deadly Brooklyn Shooting</a></h2>
+                    
+                            </article>
+                        </section>
+            
+                            <section class="story col-md-4">
+                                <article>
+                                    <div class="picture">
+                                        <img src="https://d.newsweek.com/en/full/1515580/pride.jpg?w=397&h=265&f=2f4ddfb606d556118ff8c1ab67d65769" alt="">
+                                    </div>
+                                    <h2 class="block-title red-line-hover"><a href="#" >Donald Trump Attacks Al Sharpton, Says He 'Hates Whites'</a></h2>
+                        
+                                </article>
+                            </section>
+            
+                                <div class="col-md-4">
+                                <section class="small-others">
+                                   
+                                        <div class="image">
+                                            <img src="https://d.newsweek.com/en/full/1515535/empty-classroom.jpg?w=135&h=90&f=60cca358764fc99d325d9b67e78f2427" alt="">
+                                        </div>
+                                        <div class="more-text">
+                                            <h3 class="small-other-title"><a href="#">Democrats React With Horror to Gilroy Shooting</a></h3>
+                                        </div>
+                                        
+                                    </section>
+            
+                                    <section class="small-others">
+                                        
+                                            <div class="image">
+                                                <img src="https://d.newsweek.com/en/full/1515425/britannia.jpg?w=135&h=90&f=aaa761bd702b8726647c94b54a13dd27" alt="">
+                                            </div>
+                                            <div class="more-text">
+                                                <h3 class="small-other-title"><a href="#">
+                                                        Donald Trump Accidentally Tweets Praise At Tom Homan Parody Account</a></h3>
+                                            </div>
+                                        
+                                        </section>
+            
+                                        <section class="small-others">
+                            
+                                                <div class="image">
+                                                    <img src="https://d.newsweek.com/en/full/1515426/mario-cerciello-rega.jpg?w=135&h=90&f=86f7d72eae09b739a2068f7da54733cb" alt="">
+                                                </div>
+                                                <div class="more-text">
+                                                    <h3 class="small-other-title"><a href="#">Texas Restaurant Asks Police Officer to Leave Because He Was Carrying a Gun</a></h3>
+                                                </div>
+                                            
+                                            </section>
+                                    
+                            </div>
+                            </div>
+                </div>
+                </div>
+
+                <div class="others">
+                        <div class="other-section business">
+                        <h3 class="other-title container-fluid">Business</h3>
+                        <div class="row container-fluid">
+                            <section class="story col-md-4">
+                                <article>
+                                    <div class="picture">
+                                        <img src="https://d.newsweek.com/en/full/1515326/trump-apple-tariff-iphone.jpg?w=397&h=265&f=47cfc2d759ef8285203abddb63794af0" alt="">
+                                    </div>
+                                    <h2 class="block-title red-line-hover"><a href="#" >Bra Saves Woman's Life in Deadly Brooklyn Shooting</a></h2>
+                        
+                                </article>
+                            </section>
+                
+                                <section class="story col-md-4">
+                                    <article>
+                                        <div class="picture">
+                                            <img src="https://d.newsweek.com/en/full/1510757/matt-shumer-founder-ceo-visos.png?w=397&h=265&f=da003a1972f9242d5e1740578b5b4568" alt="">
+                                        </div>
+                                        <h2 class="block-title red-line-hover"><a href="#" >Donald Trump Attacks Al Sharpton, Says He 'Hates Whites'</a></h2>
+                            
+                                    </article>
+                                </section>
+                
+                                    <div class="col-md-4">
+                                    <section class="small-others">
+                                       
+                                            <div class="image">
+                                                <img src="https://d.newsweek.com/en/full/1514412/coca-cola.jpg?w=135&h=90&f=afc681bbcd0922f874471afdda7cd8f2" alt="">
+                                            </div>
+                                            <div class="more-text">
+                                                <h3 class="small-other-title"><a href="#">Democrats React With Horror to Gilroy Shooting</a></h3>
+                                            </div>
+                                            
+                                        </section>
+                
+                                        <section class="small-others">
+                                            
+                                                <div class="image">
+                                                    <img src="https://d.newsweek.com/en/full/338271/06-05-green-09.jpg?w=135&h=90&f=00ff0d6b2b9252047a15fcb2f3b8f196" alt="">
+                                                </div>
+                                                <div class="more-text">
+                                                    <h3 class="small-other-title"><a href="#">
+                                                            Donald Trump Accidentally Tweets Praise At Tom Homan Parody Account</a></h3>
+                                                </div>
+                                            
+                                            </section>
+                
+                                            <section class="small-others">
+                                
+                                                    <div class="image">
+                                                        <img src="https://d.newsweek.com/en/full/1512543/tim-hortons.jpg?w=135&h=90&f=959706b2dd4bb571e9750345d7b222cd" alt="">
+                                                    </div>
+                                                    <div class="more-text">
+                                                        <h3 class="small-other-title"><a href="#">Texas Restaurant Asks Police Officer to Leave Because He Was Carrying a Gun</a></h3>
+                                                    </div>
+                                                
+                                                </section>
+                                        
+                                </div>
+                                </div>
+                                </div>
+                    </div>
+
+                    <div class="others">
+                            <div class="other-section tech">
+                            <h3 class="other-title container-fluid">Tech & Science</h3>
+                            <div class="row container-fluid">
+                                <section class="story col-md-4">
+                                    <article>
+                                        <div class="picture">
+                                            <img src="https://d.newsweek.com/en/full/1515240/dying-star.jpg?w=397&h=265&f=3117c351227585b108b775bc97b311cc" alt="">
+                                        </div>
+                                        <h2 class="block-title red-line-hover"><a href="#" >Bra Saves Woman's Life in Deadly Brooklyn Shooting</a></h2>
+                            
+                                    </article>
+                                </section>
+                    
+                                    <section class="story col-md-4">
+                                        <article>
+                                            <div class="picture">
+                                                <img src="https://d.newsweek.com/en/full/1515251/tick.jpg?w=397&h=265&f=9d7103765635815853b535ebf04a21fb" alt="">
+                                            </div>
+                                            <h2 class="block-title red-line-hover"><a href="#" >Donald Trump Attacks Al Sharpton, Says He 'Hates Whites'</a></h2>
+                                
+                                        </article>
+                                    </section>
+                    
+                                        <div class="col-md-4">
+                                        <section class="small-others">
+                                           
+                                                <div class="image">
+                                                    <img src="https://d.newsweek.com/en/full/1515133/vesta-giant-asteroid.jpg?w=135&h=90&f=5268940fb420be7a44a8db17883784ab" alt="">
+                                                </div>
+                                                <div class="more-text">
+                                                    <h3 class="small-other-title"><a href="#">Democrats React With Horror to Gilroy Shooting</a></h3>
+                                                </div>
+                                                
+                                            </section>
+                    
+                                            <section class="small-others">
+                                                
+                                                    <div class="image">
+                                                        <img src="https://d.newsweek.com/en/full/1515038/smartphone.jpg?w=135&h=90&f=c4bc8bc79c608453cc57de63e0f1ddf9" alt="">
+                                                    </div>
+                                                    <div class="more-text">
+                                                        <h3 class="small-other-title"><a href="#">
+                                                                Donald Trump Accidentally Tweets Praise At Tom Homan Parody Account</a></h3>
+                                                    </div>
+                                                
+                                                </section>
+                    
+                                                <section class="small-others">
+                                    
+                                                        <div class="image">
+                                                            <img src="https://d.newsweek.com/en/full/1514974/san-pedro-pottery.jpg?w=135&h=90&f=81741e65f3b1d2ac6992f2a3889769ca" alt="">
+                                                        </div>
+                                                        <div class="more-text">
+                                                            <h3 class="small-other-title"><a href="#">Texas Restaurant Asks Police Officer to Leave Because He Was Carrying a Gun</a></h3>
+                                                        </div>
+                                                    
+                                                    </section>
+                                            
+                                    </div>
+                                    </div>
+                                    </div>
+                                    
+                        </div>
+
+                        
+
+                            <div class="others">
+                                    <div class="other-section culture">
+                                    <h3 class="other-title container-fluid">Culture</h3>
+                                    <div class="row container-fluid">
+                                        <section class="story col-md-4">
+                                            <article>
+                                                <div class="picture">
+                                                    <img src="https://d.newsweek.com/en/full/1515553/mark-hamill.jpg?w=397&h=265&f=fa07059497f9161f1bc71bc5e9ba173c" alt="">
+                                                </div>
+                                                <h2 class="block-title red-line-hover"><a href="#" >Bra Saves Woman's Life in Deadly Brooklyn Shooting</a></h2>
+                                    
+                                            </article>
+                                        </section>
+                            
+                                            <section class="story col-md-4">
+                                                <article>
+                                                    <div class="picture">
+                                                        <img src="https://d.newsweek.com/en/full/1515343/shark-weeks-expedition-unknown-explores-demise-megalodon.jpg?w=397&h=265&f=f4a958b1687eca354e428eb271d3f0ff" alt="">
+                                                    </div>
+                                                    <h2 class="block-title red-line-hover"><a href="#" >Donald Trump Attacks Al Sharpton, Says He 'Hates Whites'</a></h2>
+                                        
+                                                </article>
+                                            </section>
+                            
+                                                <div class="col-md-4">
+                                                <section class="small-others">
+                                                   
+                                                        <div class="image">
+                                                            <img src="https://d.newsweek.com/en/full/1515331/how-live-stream-shark-week-2019.jpg?w=135&h=90&f=acfb84f3a59b11618457eb645b62246a" alt="">
+                                                        </div>
+                                                        <div class="more-text">
+                                                            <h3 class="small-other-title"><a href="#">Democrats React With Horror to Gilroy Shooting</a></h3>
+                                                        </div>
+                                                        
+                                                    </section>
+                            
+                                                    <section class="small-others">
+                                                        
+                                                            <div class="image">
+                                                                <img src="https://d.newsweek.com/en/full/1515507/jessica-alba.jpg?w=135&h=90&f=1b791a9f5ebadadb278878edd6d7e5d7" alt="">
+                                                            </div>
+                                                            <div class="more-text">
+                                                                <h3 class="small-other-title"><a href="#">
+                                                                        Donald Trump Accidentally Tweets Praise At Tom Homan Parody Account</a></h3>
+                                                            </div>
+                                                        
+                                                        </section>
+                            
+                                                        <section class="small-others">
+                                            
+                                                                <div class="image">
+                                                                    <img src="https://d.newsweek.com/en/full/1515492/beach-new-jersey.jpg?w=135&h=90&f=7541ec27e6eca83890e41efb8b7be689" alt="">
+                                                                </div>
+                                                                <div class="more-text">
+                                                                    <h3 class="small-other-title"><a href="#">Texas Restaurant Asks Police Officer to Leave Because He Was Carrying a Gun</a></h3>
+                                                                </div>
+                                                            
+                                                            </section>
+                                                    
+                                            </div>
+                                            </div>
+                                            </div>
+                                </div>
+
+                                <div class="others">
+                                        <div class="other-section sport">
+                                        <h3 class="other-title container-fluid">Sports</h3>
+                                        <div class="row container-fluid">
+                                            <section class="story col-md-4">
+                                                <article>
+                                                    <div class="picture">
+                                                        <img src="https://d.newsweek.com/en/full/1515600/cori-gauff.jpg?w=397&h=265&f=804bdc35d5fafdfa419aaa5fc3cbc2b6" alt="">
+                                                    </div>
+                                                    <h2 class="block-title red-line-hover"><a href="#" >Bra Saves Woman's Life in Deadly Brooklyn Shooting</a></h2>
+                                        
+                                                </article>
+                                            </section>
+                                
+                                                <section class="story col-md-4">
+                                                    <article>
+                                                        <div class="picture">
+                                                            <img src="https://d.newsweek.com/en/full/1515197/lewis-hamilton.jpg?w=397&h=265&f=7443f4adec1a61656d48905f77d70a30" alt="">
+                                                        </div>
+                                                        <h2 class="block-title red-line-hover"><a href="#" >Donald Trump Attacks Al Sharpton, Says He 'Hates Whites'</a></h2>
+                                            
+                                                    </article>
+                                                </section>
+                                
+                                                    <div class="col-md-4">
+                                                    <section class="small-others">
+                                                       
+                                                            <div class="image">
+                                                                <img src="https://d.newsweek.com/en/full/1515433/egan-bernal-geraint-thomas.jpg?w=135&h=90&f=2ae9bee8c99d740df074ac896d839132" alt="">
+                                                            </div>
+                                                            <div class="more-text">
+                                                                <h3 class="small-other-title"><a href="#">Democrats React With Horror to Gilroy Shooting</a></h3>
+                                                            </div>
+                                                            
+                                                        </section>
+                                
+                                                        <section class="small-others">
+                                                            
+                                                                <div class="image">
+                                                                    <img src="https://d.newsweek.com/en/full/1514962/nwsl-utah-royals.jpg?w=135&h=90&f=a939fb7f2c775f278eb882f5c6fe197a" alt="">
+                                                                </div>
+                                                                <div class="more-text">
+                                                                    <h3 class="small-other-title"><a href="#">
+                                                                            Donald Trump Accidentally Tweets Praise At Tom Homan Parody Account</a></h3>
+                                                                </div>
+                                                            
+                                                            </section>
+                                
+                                                            <section class="small-others">
+                                                
+                                                                    <div class="image">
+                                                                        <img src="https://d.newsweek.com/en/full/1514907/zlatan-ibrahimovic-la-galaxy.jpg?w=135&h=90&f=7984f6a132d1fe847112f67c8e253e4a" alt="">
+                                                                    </div>
+                                                                    <div class="more-text">
+                                                                        <h3 class="small-other-title"><a href="#">Texas Restaurant Asks Police Officer to Leave Because He Was Carrying a Gun</a></h3>
+                                                                    </div>
+                                                                
+                                                                </section>
+                                                        
+                                                </div>
+                                                </div>
+                                                </div>
+                                    </div>
+
+                                    <section class="subscribe-newsletter container-fluid">
+                                            <div class="row container-fluid">
+                                                <section class="col-lg-8 second-subscribe">
+                                                    <h3 class="sub-news-title" style="color:red">Subscribe</h3>
+                                                    <div class="wrapper">
+                                                        <div class="sub-image">
+                                                            <img src="https://d.newsweek.com/en/full/1515144/august-2-2019-cover.jpg?w=170&q=95&f=f8d91303bdbdcfe3a6f274aea9b10043" alt="June cover">
+                                                        </div>
+                                                        <div class="sub-text">
+                                                            <h2 class="sub-title">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h2>
+                                                            <p>All Access + Weekly Delivery. Choose A Membership That's Perfect for You!</p>
+                                                            <button class="cover sub-button">SUBSCRIBE <i class="fas fa-angle-right"></i></button>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                        
+                                                <section class="col-lg-4 second-newsletter">
+                                                    <h3 class="sub-news-title" style="color:red">Newsletter</h3>
+                                                    <div class="news-wrapper">
+                                                        <div class="news-image">
+                                                            </div>
+                                                        <div class="news-text">
+                                                                <h2 class="news-title">Daily Briefing</h2>
+                                                                <p>Take back your inbox. Sign up for our newsletter and start making sense of the world around you.</p>
+                                                                <button class="cover sub-button">SIGN UP <i class="fas fa-angle-right"></i></button>
+                                        
+                                                        </div>
+                                                        </div>
+                                                    </section>
+                                            </div>
+                                        </section>
+                                        </div>
+
+                                    
        </main>
 
+       <footer>
+            <div class="logo-social row container-fluid">
+                <div class="logo-and-text col-lg-10 col-sm-9">
+                    <img src="images/newsweek_logo.png" alt="Newsweek logo">
+                    <span class="copyright">&copy; 2019 NEWSWEEK</span>
+                </div>
+                
+                    <ul class="social-icons col-lg-2 col-sm-3">
+                        <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-tumblr"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+        
+                    </ul>
+                    
+            
+            </div>
+    
+            <div class="footer-links row container-fluid">
+                <ul class="about col-lg-8 col-md-12">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Corrections</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Editorial Guidelines</a></li>
+                    <li><a href="#">Advertise</a></li>
+                    <li><a href="#">Copyright</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                    <li><a href="#">Terms of Sale</a></li>
+                    <li><a href="#">Archive</a></li>
+                    <li><a href="#">Announcements</a></li>
+                    <li><a href="#">Consent preferences</a></li>
+    
+                </ul>
+                <ul class="editions col-lg-4 col-md-12">
+                    <li><b>Editions: </b></li>
+                    <li><a href="#">U.S. Edition</a></li>
+                    <li><a href="#">日本</a></li>
+                    <li><a href="#">한국</a></li>
+                    <li><a href="#">Pakistan</a></li>
+                    <li><a href="#">Polska</a></li>
+                    <li><a href="#">România</a></li>
+                </ul>
+                
+            </div>
+        </footer>
 
+        </div>
     </body>
 </html>
