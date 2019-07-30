@@ -9,7 +9,6 @@ body {
   background-color: rgb(253, 249, 249)!important;
 }
 
-
 html, body {
     overflow-x: hidden;
 }
@@ -607,4 +606,5 @@ footer {
     #signin {
         margin-right: 0px;
         font-size: 15px;
+}
 }
