@@ -51,7 +51,7 @@ html, body {
 	font-size: 16px;
 }
 
-#signin {
+.signin {
 	margin-right: 20px;
 	font-size: 18px;
 	font-weight: 600;
@@ -59,7 +59,7 @@ html, body {
 	bottom: 10px;
 }
 
-#signin a {
+.signin a {
 	text-decoration: none;
 	color: #f72210;
 	background-color: #fff;
@@ -72,7 +72,7 @@ html, body {
 	z-index: 9999;
 }
 
-#signin span {
+.signin span {
 	padding-right: 10px;
 }
 
@@ -603,7 +603,7 @@ footer {
     main {
         margin-top: 100px;
     }
-    #signin {
+    .signin {
         margin-right: 0px;
         font-size: 15px;
 }
