@@ -108,7 +108,19 @@ html, body {
 	padding: 0px 54px 0px 0px;
 }
 
+.page-nav li {
+	flex-grow: 1;
+	text-align: center;
+	border-left: 1px solid #d9d9d9;
+}
 
+.page-nav li a {
+	cursor: pointer;
+}
+
+.page-nav  li a:hover {
+	color: #f72210 !important;
+}
 
 .page-nav :first-child,
 .page-nav :last-child {
@@ -502,21 +514,6 @@ footer {
 .editions li {
     float: left;
 }
-
-.page-nav li {
-	flex-grow: 1;
-	text-align: center;
-	border-left: 1px solid #d9d9d9;
-}
-
-.page-nav li a {
-	cursor: pointer;
-}
-
-.page-nav  li a:hover {
-	color: #f72210 !important;
-}
-
 .footer-links{
     border-top: 1px solid rgb(123, 124, 126);
     margin-bottom:  45px;
