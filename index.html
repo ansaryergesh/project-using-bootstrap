@@ -16,37 +16,34 @@
     <body>
             <div class="container-fluid">
        <header>
-           <nav class="nav">
-               <div class="header row">
-                    <p class="col-3 date">Thu, Jul 25, 2019</p>
-                    <div class="col-6 logo">
-                        <img src="images/newsweek_logo.jpg" alt="">
-                    </div>
-                    <div class="col-3 buttons">
-                        <a class="sign-in">Sign In</a>
-                        <a class="subscribe">Subscribe ></a>
-                        <button class="hamburger">
-                                <i class="fas fa-bars"></i>
-                        </button>
-                    </div>
-
-                      
-               <div class="nav-bar col-12">
-                <ul>
-                    <li class="nav-bar-link"><a href="#">U.S</a></li>
-                    <li class="nav-bar-link"><a href="#">World</a></li>
-                    <li class="nav-bar-link"><a href="#">Business</a></li>
-                    <li class="nav-bar-link"><a href="#">Tech & Science</a></li>
-                    <li class="nav-bar-link"><a href="#">Culture</a></li>
-                    <li class="nav-bar-link"><a href="#">Sports</a></li>
-                    <li class="nav-bar-link"><a href="#">Health</a></li>
-                    <li class="nav-bar-link"><a href="#">Opinion</a></li>
-                    <li class="nav-bar-link"><a href="#">Vantage</a></li>
-                    <li class="nav-bar-link search"><p>Search <span class="fas fa-search"></span></p></li>
-                </ul>
-               </div>
-               </div>
-             
+        <div class="fixed-top" id="stickynav">
+            <div class="d-flex justify-content-between nav-bar" >
+                <div class="p-2">
+                    <span id="datenav">Tue, Jul 30, 2019</span>
+                </div>
+                <div class="p-2" id="signin">
+                    <span>SIGN IN</span><a href="#">SUBSCRIBE <i class="fas fa-chevron-right"></i></a>
+                    <i class="hamburger fas fa-bars"></i>
+                </div>
+            </div>
+    
+            <div class="logoimg"><img src="images/newsweek-logo.png"></div>
+        </div>
+    
+        <nav class="header-bottom nav-second" >
+            <ul class="page-nav">
+                <li><a>U.S.</a></li>
+                <li><a>World</a></li>
+                <li><a>Business</a></li>
+                <li><a>Tech & Science</a></li>
+                <li><a>Culture</a></li>
+                <li><a>Sports</a></li>
+                <li><a>Health</a></li>
+                <li><a>Opinion</a></li>
+                <li><a>Vantage</a></li>
+                <li><a id="search">Search</a><i class="fas fa-search"></i></li>
+            </ul>
+        </nav>
            </nav>
        </header>
 
