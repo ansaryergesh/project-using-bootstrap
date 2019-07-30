@@ -114,11 +114,11 @@ html, body {
 	border-left: 1px solid #d9d9d9;
 }
 
-.page-nav > li > a {
+.page-nav li > a {
 	cursor: pointer;
 }
 
-.page-nav > li > a:hover {
+.page-nav  li > a:hover {
 	color: #f72210 !important;
 }
 
