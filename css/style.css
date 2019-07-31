@@ -17,6 +17,10 @@ html, body {
     background-color: white
 }
 
+.heading-none{
+    display: none
+}
+
 .nav-bar {
 	position: relative;
 	margin: auto;
@@ -245,6 +249,7 @@ html, body {
     border-top: 1px solid rgb(146, 145, 145);
     padding: 10px 0;
 }
+
 
 .more-stories .image img {
     height: 100px;
