@@ -12,16 +12,16 @@ body {
 html, body {
     overflow-x: hidden;
 }
-.container-fluid {
+body .container-fluid {
     position: relative;
     background-color: white
 }
 
-.heading-none{
+section .heading-none, article .heading-none{
     display: none
 }
 
-.nav-bar {
+header .nav-bar {
 	position: relative;
 	margin: auto;
 	background-color: #f72210;
@@ -49,7 +49,7 @@ html, body {
 	width: 100%;
 }
 
-.datenav {
+header .nav-bar .datenav {
 	position: relative;
 	margin-left: 20px;
 	font-size: 16px;
@@ -90,7 +90,7 @@ html, body {
 	position: relative;
 }
 
-.header-bottom::before {
+header .header-bottom::before {
 	width: 66px;
 	position: absolute;
 	top: 0;
@@ -102,7 +102,7 @@ html, body {
 	border-top: 13px solid #f72210;
 }
 
-.page-nav {
+.header-bottom .page-nav {
 	display: flex;
 	font-size: 21px;
 	line-height: 24px;
@@ -112,7 +112,7 @@ html, body {
 	padding: 0px 54px 0px 0px;
 }
 
-.page-nav li {
+.header-bottom .page-nav li {
 	flex-grow: 1;
 	text-align: center;
 	border-left: 1px solid #d9d9d9;
@@ -469,7 +469,7 @@ width: 50%;
 
 /* Footer */
 
-.logo-social {
+footer .logo-social {
     display: flex;
     align-items: center;
     border-bottom: 1px solid rgb(244, 245, 246);
